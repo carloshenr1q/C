@@ -25,19 +25,19 @@ int main(){
     printf("============ CADASTRO NACIONAL PF ============\n\n");
     for (y = 0; y <= 1; y++)
     {
-        puts("Digite nome de usuário: \n");
+        puts("Digite nome de usuário: ");
         scanf("%49[^\n]s", lista[y].user);
         fflush(stdin);
 
-        puts("Digite uma senha: \n");
+        puts("Digite uma senha: ");
         scanf("%49[^\n]s", lista[y].password);
         fflush(stdin);
     }
 
     printf("============ ACESSO NACIONAL PF ============\n\n");
 
-    puts("Digite nome de usuário: \n");
-    scanf("%49[^\n]s", user1);
+    puts("Digite nome de usuário: ");
+    gets(user1);
     fflush(stdin);
     z = strcmp(lista[0].user, user1);
     if (z == 0)
