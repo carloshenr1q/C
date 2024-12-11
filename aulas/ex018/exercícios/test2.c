@@ -53,11 +53,10 @@ int main() {
         } 
     }
 
-    printf("Usuário encontrado!\n\n");
+    printf("Usuário Encontrado!\n\n");
 
     while (i != 0)
     {
-
         puts("Digite a senha: ");
         scanf("%49[^\n]s", password1);
         fflush(stdin);
@@ -68,7 +67,7 @@ int main() {
         {
             system("cls || clear");
             printf("============ ACESSO NACIONAL PF ============\n\n");
-            printf("Senha Incorreto!\n");
+            printf("Senha Incorreta!\n");
             printf("\n");
         } 
     }
