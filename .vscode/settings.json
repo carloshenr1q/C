@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "strucs": "cpp"
+        "strucs": "cpp",
+        "calculadora.h": "c"
     }
 }
