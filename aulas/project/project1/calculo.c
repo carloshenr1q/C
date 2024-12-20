@@ -8,7 +8,7 @@ int main(){
     printf("Digite um número: ");
     scanf("%f", &x);
 
-    printf("Digite um número: ");
+    printf("Digite outro número: ");
     scanf("%f", &y);
 
     printf("Digite 1 para Adição.\n");
@@ -44,6 +44,7 @@ int main(){
         break;
     
     default:
+        printf("ERRO!");
         break;
     }
 
