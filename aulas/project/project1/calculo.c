@@ -4,18 +4,23 @@
 int main(){
     int alternativa;
     float x, y, result;
-
-    printf("Digite um número: ");
-    scanf("%f", &x);
-
-    printf("Digite outro número: ");
-    scanf("%f", &y);
-
+    printf("=========================================== CALCULADORA BÁSICA ===========================================\n\n");
     printf("Digite 1 para Adição.\n");
     printf("Digite 2 para Subtração\n");
     printf("Digite 3 para Multiplicação\n");
     printf("Digite 4 para Divisão\n");
     scanf("%d", &alternativa);
+    if (alternativa != 1 && alternativa != 2 && alternativa != 3 && alternativa != 4)
+    {
+        printf("Opção Inválida!");
+        return 1;
+    }
+    
+    printf("Digite um número: ");
+    scanf("%f", &x);
+
+    printf("Digite outro número: ");
+    scanf("%f", &y);
 
     switch (alternativa)
     {
