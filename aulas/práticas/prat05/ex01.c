@@ -62,13 +62,13 @@ int main (){
             return 1;
         }
         
-
         printf("Resultado da divisão é: %.2f", result);
         break;
     
     default:
         break;
     }
+    
     if (z != 1 && z != 2 && z != 3 && z != 4)
     {
         printf("Erro!");
