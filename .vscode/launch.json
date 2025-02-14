@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/carlo/OneDrive/Área de Trabalho/CH/Programador/Programação C - Curso/C/aulas/práticas/prat01",
-      "program": "c:/Users/carlo/OneDrive/Área de Trabalho/CH/Programador/Programação C - Curso/C/aulas/práticas/prat01/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

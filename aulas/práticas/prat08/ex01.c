@@ -8,12 +8,14 @@ int main(){
 
     printf("Números do Fibonacci\n");
 
-    for (i = 0; i < 6; i++)
+    for (i = 0; i < 15; i++)
     {
-        num = soma + num;
+        result = num + soma;
+        num = soma;
+        soma = result;
 
         i++;
-        printf("%d ", num);
+        printf("%d ", soma);
     }
 
     return 0;
