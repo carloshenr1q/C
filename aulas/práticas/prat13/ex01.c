@@ -14,13 +14,23 @@ int main(){
 
     for (i = 1; i < 10; i++)
     {
-        if (0 != 3 % primos[i])
+        if (1 == primos[i])
         {
-            if (0 != 2 % primos[i])
-            {
-                printf("%d é primo na posição %d\n", primos[i], i);
-            }
+            printf("%d é primo na posição %d\n", primos[i], i);
+        }
+        else if (2 == primos[i])
+        {
+            printf("%d é primo na posição %d\n", primos[i], i);
+        }
+        else if (3 == primos[i])
+        {
+            printf("%d é primo na posição %d\n", primos[i], i);
+        }
+        else if (0 == 3 % primos[i] || 0 == 2 % primos[i] || 0 == 5 % primos[i]){
+        }
+        else{
+            printf("%d é primo na posição %d\n", primos[i], i);
         }
     }
-    
+        
 }
